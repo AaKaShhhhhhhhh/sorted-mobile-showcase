@@ -18,7 +18,7 @@ The Android companion to Sorted: save links as workspaces, get reminded when to 
   <img src="media/banner.png" alt="Sorted Mobile — keep your place, pick it up later" width="100%" />
 </p>
 
-> This is a public showcase of a product I designed and built. The source code is private; this repository holds screenshots, a launch video, and a product overview.
+> **Production code is private.** This repository is a public product showcase with screenshots, a launch video and an overview. It contains no source code.
 
 ---
 
@@ -68,6 +68,17 @@ Phones are where good intentions go to scroll. You find a link you mean to read,
 </table>
 
 ---
+
+## Tech stack
+
+| Area | Technologies |
+|---|---|
+| App | Flutter, Dart |
+| State | Provider |
+| Accounts and sync | Firebase Authentication, Google Sign-In, Cloud Firestore |
+| Notifications | Firebase Cloud Messaging, local scheduled notifications |
+| Security | Firebase App Check, secure on-device storage |
+| Android | Home-screen widgets, share-to-app intents, deep links |
 
 ## The Sorted family
 
